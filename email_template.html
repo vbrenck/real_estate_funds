@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <style>
+
+body {
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+table {
+  background: white;
+  white-space: nowrap;
+  border-radius:15px;
+  border-collapse: collapse;
+  padding: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  white-space: normal;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:20px;
+  font-weight: 300;
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+}
+
+tr:nth-child(odd) td {
+  background:rgb(235, 235, 235);
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:16px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  border-right: 1px solid #C1C3D1;
+  border-left: 1px solid #C1C3D1;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.criterios, .fonte {
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="email-background">
+            <div class="pre-header">
+                <h5>
+                    FIIs recomendados para $XX/XX/XXXX$¹
+                </h5>
+            </div>
+            <div class="email-container">
+                $tab_html$
+                <br>
+              <p class="criterios">¹Critérios utilizados: <br>
+                Vacância < 10%; <br>
+                Qtde. Ativos > 5; <br>
+                P/VPA entre 90% e 115%; <br>
+                DY > 90% do DY 12m(Média); <br>
+                Liquidez Diária entre os 60% mais negociados.</p>
+              <p class="fonte">Fonte: <a href="https://www.fundsexplorer.com.br/ranking">fundsexplorer</a></p>
+
+            </div>
+        </div>
+    </body>
+</html>
